@@ -1,0 +1,5 @@
+Student name: Kevin Peeperkoorn
+Student number: 683432
+Student class: Inf1B
+URL student website: https://kevinpeeperkoorn.github.io
+URL student Github repository: https://github.com/kevinpeeperkoorn/kevinpeeperkoorn.github.io
