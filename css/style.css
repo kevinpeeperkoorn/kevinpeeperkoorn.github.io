@@ -1,8 +1,10 @@
- body { background-color: #87ceeb;
-  letter-spacing: 1px;
-  line-height: 20px;
-	 text-indent: 1px;
-	 word-spacing: 1px;
+ body 
+ { 
+	background-color: #87ceeb;
+	letter-spacing: 1px;
+	line-height: 20px;
+	text-indent: 1px;
+	word-spacing: 1px;
 }
 p
 {
