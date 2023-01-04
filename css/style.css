@@ -6,3 +6,17 @@ p
 {
 	color : #0FF;
 }
+#Cookies
+{
+    background-color: orange;
+    opacity: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 15%;
+    border-style: solid;
+    border-color: #FFF;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
