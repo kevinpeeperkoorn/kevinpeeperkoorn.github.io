@@ -25,7 +25,9 @@ p
     margin: 5px;
     margin-bottom: 30px;
 }
-#nav ul {
+@media screen and (min-width: 1280px)
+{
+	#nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -44,10 +46,144 @@ p
   padding: 14px 16px;
   text-decoration: none;
 }
+
+
 #nav li a:hover {
   background-color: #111;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+ #nav	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #24af15;
+}
+
+#nav li {
+  float: left;
+}
+
+ #nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+#nav li a:hover {
+  background-color: #111;
+}
+}
+
+
+
+
+
+ 
+
+@media screen and (max-width: 480px)
+{
+ #nav {
+  list-style: none inside;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav li {
+  display: block;
+  position: relative;
+  float: right;
+  background: #24af15;
+  
+}
+
+#nav li a {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  width: 200px;
+ 
+  line-height: 35px;
+ 
+  color: #ffffff;
+ 
+}
+#nav li a {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  width: 200px;
+ 
+  line-height: 35px;
+ 
+  color: #ffffff;
+ 
+}
+
+#nav li li a {
+  font-size: 80%;
+}
+
+
+
+
+#nav li:hover {
+  background: #003f20;
+}
+
+
+
+
+#nav ul {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  display: none;
+ 
+}
+
+#nav li:hover ul ul {
+  display: none;
+}
+
+
+
+
+#nav li:hover ul {
+  display: block;
+}
+
+
+
+
+#nav li li:hover ul {
+  display: block;
+
+  margin-left: 200px;
+  margin-top: -35px;
+}	
 }
 video
 {
 	pointer-events: none;
+	float: center;
 }
+section {
+	display: block;
+margin-left: 0;
+margin-right: 300px;
+margin-bottom: 10px;
+float: left;	 	
+padding: 5px;
+ background: #1abc9c;
+ color: blue;
+ border-width: 10px;
+ border-color: #24af15;
+ border-style: double;
+  text-align: center;}
