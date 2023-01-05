@@ -6,6 +6,13 @@
 	text-indent: 1px;
 	word-spacing: 1px;
 }
+video
+{	
+	length: 300px;
+	width: 300px;
+	
+	float: center;
+}
 #logo
 {
 	float: left;
@@ -197,10 +204,7 @@ p
   margin-top: -35px;
 }	
 }
-video
-{	
-	float: center;
-}
+
 section 
 {
 	display: block;
@@ -258,6 +262,14 @@ padding: 5px;
  border-color: #24af15;
  border-style: double;
   text-align: center;}
+  
+  table
+  {
+	  background-color: blue;
+	  
+  }
+  
+  
 	
 
 
